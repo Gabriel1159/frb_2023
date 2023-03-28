@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.frb.mapper.SampleMapper">
+    <insert id="addSample">
+        insert into frb(tName, tAttr, tSubTime, tPath, tState, tData)
+        values(#{tName}, #{tAttr}, #{tSubTime}, #{tPath}, #{tState}, #{tData});
+    </insert>
+    <select id="getInfo" resultType="com.frb.DAO.TrainSample">
+        select * from frb;
+    </select>
+    <select id="getSingleInfo" resultType="com.frb.DAO.TrainSample">
+        select * from frb where id=#{id};
+    </select>
+</mapper>
