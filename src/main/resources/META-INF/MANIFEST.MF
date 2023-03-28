@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Main-Class: com.frb.BackendApplication
+Class-Path: spring-boot-autoconfigure-2.7.1.jar spring-jcl-5.3.21.jar sp
+ ring-beans-5.3.21.jar jul-to-slf4j-1.7.36.jar log4j-api-2.17.2.jar spri
+ ng-aop-5.3.21.jar tomcat-embed-core-9.0.64.jar spring-web-5.3.21.jar ja
+ ckson-module-parameter-names-2.13.3.jar tomcat-embed-websocket-9.0.64.j
+ ar jackson-databind-2.13.3.jar logback-classic-1.2.11.jar snakeyaml-1.3
+ 0.jar spring-boot-starter-web-2.7.1.jar spring-context-5.3.21.jar log4j
+ -to-slf4j-2.17.2.jar spring-boot-starter-2.7.1.jar jackson-datatype-jdk
+ 8-2.13.3.jar slf4j-api-1.7.36.jar spring-core-5.3.21.jar jackson-annota
+ tions-2.13.3.jar jackson-datatype-jsr310-2.13.3.jar spring-expression-5
+ .3.21.jar jakarta.annotation-api-1.3.5.jar jackson-core-2.13.3.jar spri
+ ng-boot-starter-logging-2.7.1.jar spring-boot-starter-tomcat-2.7.1.jar 
+ logback-core-1.2.11.jar spring-webmvc-5.3.21.jar spring-boot-2.7.1.jar 
+ spring-boot-starter-json-2.7.1.jar tomcat-embed-el-9.0.64.jar
+
